@@ -10,7 +10,7 @@ module.exports={
       "port":5432
     },
     "test": {
-      "username": "root",
+      "username": "postgres",
       "password": process.env.SEQUELIZE_PASSWORD,
       "database": "memoApp",
       "host": "127.0.0.1",
@@ -18,7 +18,7 @@ module.exports={
       "port":5432
     },
     "production": {
-      "username": "root",
+      "username": "postgres",
       "password": process.env.SEQUELIZE_PASSWORD,
       "database": "memoApp",
       "host": "127.0.0.1",
