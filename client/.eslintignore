@@ -1,0 +1,6 @@
+{
+    "ignorePatterns": ["/root/src/*.js",],
+    "rules": {
+        "vue.vali-v-slot":"off"
+    }
+}
